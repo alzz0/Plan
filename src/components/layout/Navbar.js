@@ -11,7 +11,7 @@ const Navbar = props => {
   return (
     <nav className="nav-wrapper grey darken-3">
       <div className="container">
-        <Link to="/" className="brand-logo">
+        <Link to="/" className="brand-logo hide-on-med-and-down">
           Plan
         </Link>
         {links}
